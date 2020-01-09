@@ -21,7 +21,7 @@ df.describe()
 df.isnull().sum()
 sns.countplot(x="math score", data = df, palette="muted")
 plt.show()
-
+# test comment
 df['Math_PassStatus'] = np.where(df['math score']<passmark, 'F', 'P')
 df.Math_PassStatus.value_counts()
 sns.countplot(x='parental level of education', data = df, hue='Math_PassStatus', palette='bright')
