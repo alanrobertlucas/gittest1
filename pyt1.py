@@ -6,6 +6,7 @@ Created on Wed Dec  5 20:13:45 2018
 """
 # another comment
 import os
+# comment2
 print(os.getcwd())
 import numpy as np
 import pandas as pd
